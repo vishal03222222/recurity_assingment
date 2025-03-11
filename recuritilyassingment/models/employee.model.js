@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const EmployeeSchema = mongoose.Schema(
   {
+   
     name: {
       type: String,
       required: [true, "Please enter employee name"],
